@@ -5,12 +5,14 @@ Built with React for a dynamic user interface, Bootstrap for responsive design, 
 
 
 Features 🚀
+
 React Powered: Leverage the power of React for a seamless and dynamic user experience.
 Bootstrap Design: Responsive and mobile-friendly layout thanks to Bootstrap.
 CSS Animations: Engage your visitors with smooth and eye-catching animations.
 
 
 Technologies Used 🛠️
+
 React.js
 Bootstrap
 CSS Animations

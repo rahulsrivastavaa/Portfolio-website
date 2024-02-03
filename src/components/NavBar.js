@@ -6,8 +6,7 @@ import navIcon2 from '../assets/img/github-mark-white.png';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
-  BrowserRouter,
-  BrowserRouter as Router
+ HashRouter as Router
 } from "react-router-dom";
 
 export const NavBar = () => {
@@ -34,8 +33,7 @@ export const NavBar = () => {
   }
 
   return (
-    <BrowserRouter basename="/Portfolio-website">
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
@@ -64,6 +62,5 @@ export const NavBar = () => {
         </Container>
       </Navbar>
     </Router>
-    </BrowserRouter>
   )
 }
